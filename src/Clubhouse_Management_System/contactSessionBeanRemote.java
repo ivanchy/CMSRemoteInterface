@@ -12,6 +12,6 @@ import javax.ejb.Remote;
  * @author admin
  */
 @Remote
-public interface SessionBeanRemote {
+public interface contactSessionBeanRemote {
     
 }
