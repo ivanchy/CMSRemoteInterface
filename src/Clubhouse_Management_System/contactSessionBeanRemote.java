@@ -14,6 +14,6 @@ import javax.ejb.Remote;
 @Remote
 public interface contactSessionBeanRemote {
 
-    String send(String name, String email, String message);
+    void send(String name, String email, String message);
     
 }
