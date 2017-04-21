@@ -12,9 +12,8 @@ import javax.ejb.Remote;
  * @author admin
  */
 @Remote
-public interface contactSessionBeanRemote {
+public interface feedbackSessionBeanRemote {
 
-    void send(String name, String email, String message);
+    void send(String username, String message);
     
-  
 }

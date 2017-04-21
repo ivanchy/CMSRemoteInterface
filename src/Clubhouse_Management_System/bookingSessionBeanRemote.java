@@ -17,7 +17,7 @@ public interface bookingSessionBeanRemote {
     
     String findByService(String service);
     String findByTime(String date, String time);
-    void send();
+    void send(String id);
      public List<String> service();
     
 }
